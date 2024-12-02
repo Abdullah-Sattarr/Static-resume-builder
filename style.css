@@ -1,0 +1,73 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif; /* Changed font to Arial */
+    background-color: #eaeaea; /* Light background for contrast */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main resume container */
+.resume {
+    max-width: 800px;
+    margin: auto;
+    background: #1c1c1c; /* Dark background for the resume */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Enhanced shadow */
+    color: white; /* Text color */
+}
+
+/* Section headers */
+h2 {
+    cursor: pointer;
+    color: red; /* Red color for headers */
+    margin: 15px 0; /* Increased margin for spacing */
+    border-bottom: 2px solid red; /* Thicker border */
+    padding-bottom: 5px;
+    font-size: 1.5em; /* Increased font size */
+    font-family: 'Verdana', sans-serif; /* Changed font to Verdana */
+}
+
+/* Details section */
+.details {
+    display: none; /* Hidden by default */
+    margin-top: 10px;
+    padding: 15px; /* Added padding */
+    background: #2c2c2c; /* Slightly lighter background */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Show class to display details */
+.details.show {
+    display: block; /* Display block when shown */
+}
+
+/* Profile picture styling */
+.profile-picture {
+    width: 120px; /* Increased size */
+    height: 120px; /* Increased size */
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px;
+    border: 3px solid red; /* Red border around profile picture */
+}
+
+/* Unordered list styles */
+ul {
+    list-style-type: none; /* No bullets */
+    padding: 0; /* No padding */
+}
+
+/* List item styling */
+li {
+    background: #333; /* Dark background for list items */
+    margin: 5px 0; /* Margin between items */
+    padding: 10px; /* Padding inside items */
+    border-radius: 4px; /* Rounded corners */
+    transition: background 0.3s; /* Smooth background change on hover */
+}
+
+/* Hover effect for list items */
+li:hover {
+    background: red; /* Change background to red on hover */
+    color: white; /* Change text color to white on hover */
+}

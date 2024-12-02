@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume">
+       
+        <section class="personal-info">
+            <h2 onclick="toggleSection('personal-details')">Personal Information</h2>
+            <div id="personal-details" class="details show">
+                <img src="./profile.jpg" alt="Profile Picture" class="profile-picture">
+                <h3>Abdullah A.Sattar</h3>
+                <p>Contact:abdullahlaghariii306@gmail.com | 0300 0000000</p>
+            </div>
+        </section>
+
+       
+        <section class="education">
+            <h2 onclick="toggleSection('education-details')">Education</h2>
+            <div id="education-details" class="details show">
+                <p><strong>Intermediate from S.A.L College , Mirpurkhas 2023</strong> </p>
+                <p>University: Mehran University, 2024</p>
+                <p><strong>Bachelor in Information technology</strong></p>
+            
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2 onclick="toggleSection('skills-details')">Skills</h2>
+            <div id="skills-details" class="details show">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>                
+                    <li>Next Js</li>
+                    <li>React JS</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="experience">
+            <h2 onclick="toggleSection('experience-details')">Work Experience</h2>
+            <div id="experience-details" class="details show">
+
+                <p><strong>Job Title:</strong>Front-End Developer</p>
+                <p><strong>Company:</strong> Nextrove, 2023 - 2024</p>
+                <p><strong>Responsibilities:</strong> Developing responsive web applications.</p>
+                <p><strong>Job Title:</strong> Front-End Developer</p>
+                <p><strong>Company:</strong> Bano Qabil, 2023 - 2024</p>
+                <p><strong>Responsibilities:</strong> Developing responsive web applications.</p>
+            </div>
+        </section>
+    </div>
+
+  
+    <script src="main.js"></script>
+</body>
+</html>
